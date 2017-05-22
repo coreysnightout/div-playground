@@ -8,6 +8,7 @@
 
 .container {
   margin: auto;
+  padding: 10%;
   height: 1000px;
   width: 1200px;
   border: 5px;
@@ -15,12 +16,11 @@
   border-color: #00ced1;
 }
 .invisible {
-  padding-top: 350px;
-  padding-bottom: 350px;
+  margin: auto;
+  /*padding-top: 350px;
+  padding-bottom: 350px;*/
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 100px;
+  /*padding-right: 100px;*/
 }
 
 .blue-box {
@@ -42,13 +42,14 @@ img.lemon {
 
 .grey {
   padding: 25px;
-  margin: auto;
+  margin-right: 15px;
+  /*margin: auto;*/
   height: 300px;
   width: 300px;
   background-color: grey;
 }
 table {
-  margin: auto;
+  /*margin: auto;*/
   height: 300px;
   width: 500px;
   border-collapse: collapse;
